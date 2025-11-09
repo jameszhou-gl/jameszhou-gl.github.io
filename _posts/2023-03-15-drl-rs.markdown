@@ -2,7 +2,7 @@
 layout: post
 title:  "Deep reinforcement learning in recommender systems: A survey and new perspectives"
 date:   2023-03-15 18:18:18 +00:00
-# image: /images/survey-causality-dgms.jpg
+image: /images/empty.jpg
 categories: research
 author: "Guanglin Zhou"
 authors: "Xiaocong Chen, Lina Yao, Julian McAuley, <strong>Guanglin Zhou</strong>, Xianzhi Wang"
