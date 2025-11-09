@@ -7,7 +7,7 @@ categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Shaoan Xie, Guangyuan Hao, Shiming Chen, Biwei Huang, Xiwei Xu, Chen Wang, Liming Zhu, Lina Yao, Kun Zhang"
 venue: "arXiv"
-arxiv: https://arxiv.org/pdf/2301.12351
+arXiv: https://arxiv.org/pdf/2301.12351
 # code: https://github.com/jameszhou-gl/CBRE
 ---
 <!-- We propose. -->
