@@ -138,6 +138,75 @@
         <br>
         <br>
 
+        <!-- Miscellanea Section -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Miscellanea</h2>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Image Carousel -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:20px;width:100%;text-align:center;">
+              <div style="position:relative;max-width:800px;margin:auto;">
+                <!-- Carousel Images -->
+                <div id="carousel-container" style="position:relative;width:100%;overflow:hidden;">
+                  <img class="carousel-image" src="images/cg_1.jpeg" style="width:100%;display:block;">
+                  <img class="carousel-image" src="images/cg_2.jpeg" style="width:100%;display:none;">
+                  <img class="carousel-image" src="images/cg_3.jpeg" style="width:100%;display:none;">
+                </div>
+                
+                <!-- Navigation Arrows -->
+                <button onclick="changeSlide(-1)" style="position:absolute;top:50%;left:10px;transform:translateY(-50%);background:rgba(0,0,0,0.5);color:white;border:none;padding:15px 20px;cursor:pointer;font-size:24px;border-radius:5px;z-index:10;">❮</button>
+                <button onclick="changeSlide(1)" style="position:absolute;top:50%;right:10px;transform:translateY(-50%);background:rgba(0,0,0,0.5);color:white;border:none;padding:15px 20px;cursor:pointer;font-size:24px;border-radius:5px;z-index:10;">❯</button>
+                
+                <!-- Slide Indicators -->
+                <div style="text-align:center;padding:10px 0;">
+                  <span class="dot" onclick="currentSlide(1)" style="cursor:pointer;height:15px;width:15px;margin:0 5px;background-color:#bbb;border-radius:50%;display:inline-block;"></span>
+                  <span class="dot" onclick="currentSlide(2)" style="cursor:pointer;height:15px;width:15px;margin:0 5px;background-color:#bbb;border-radius:50%;display:inline-block;"></span>
+                  <span class="dot" onclick="currentSlide(3)" style="cursor:pointer;height:15px;width:15px;margin:0 5px;background-color:#bbb;border-radius:50%;display:inline-block;"></span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <script>
+          let slideIndex = 1;
+          showSlide(slideIndex);
+
+          function changeSlide(n) {
+            showSlide(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlide(slideIndex = n);
+          }
+
+          function showSlide(n) {
+            let i;
+            let slides = document.getElementsByClassName("carousel-image");
+            let dots = document.getElementsByClassName("dot");
+            
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            
+            for (i = 0; i < dots.length; i++) {
+              dots[i].style.backgroundColor = "#bbb";
+            }
+            
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].style.backgroundColor = "#717171";
+          }
+        </script>
+
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:0px">
