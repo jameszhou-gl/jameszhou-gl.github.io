@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Cycle-balanced representation learning for counterfactual inference"
+date:   2021-12-19 18:18:18 +00:00
+image: /images/cbre.jpg
+categories: research
+author: "Guanglin Zhou"
+authors: "<strong>Guanglin Zhou</strong>, Lina Yao, Xiwei Xu, Chen Wang, Liming Zhu"
+venue: "Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)"
+website: https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.50
+code: https://github.com/jameszhou-gl/CBRE
+---
+<!-- We propose. -->
