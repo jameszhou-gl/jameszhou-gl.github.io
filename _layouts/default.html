@@ -97,10 +97,10 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:10px 20px 10px 20px;width:25%;vertical-align:middle;min-width:120px">
+            <td style="padding:10px 20px 10px 20px;width:30%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
-            <td style="padding:10px 20px 10px 20px;width:75%;vertical-align:middle">
+            <td style="padding:10px 20px 10px 20px;width:70%;vertical-align:middle">
               <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">{{post.title}}</h3>
               <p style="font-size: 16px; font-style: italic; margin: 2px 0;">{{post.authors}}</p>
               <p style="font-size: 16px; font-style: italic; margin: 2px 0;">{{post.venue}}, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong>{% endif %}</p>
