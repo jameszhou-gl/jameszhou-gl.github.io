@@ -73,24 +73,31 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
+            {% if post.image %}
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
+            {% else %}
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            {% endif %}
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
+              {% if post.arXiv %}
+              <a href="{{post.arXiv}}">arXiv</a> /
+              {% endif %}
+              {% if post.PDF %}
+              <a href="{{post.PDF}}">PDF</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
               {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              {% if post.Code %}
+              <a href="{{post.Code}}">Code</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /

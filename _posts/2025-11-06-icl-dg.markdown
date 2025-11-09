@@ -7,7 +7,7 @@ categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou<sup>#</sup><sup>*</sup></strong>, Zhongyi Han<sup>*</sup>, Shaoan Xie<sup>*</sup>, Shiming Chen, Biwei Huang, Liming Zhu, Xin Gao, Lina Yao, Salman Khan"
 venue: "International Journal of Computer Vision"
-arxiv: https://arxiv.org
+arXiv: https://arxiv.org
 # code: https://github.com/jameszhou-gl/HiSGT
 ---
 <!-- We propose. -->

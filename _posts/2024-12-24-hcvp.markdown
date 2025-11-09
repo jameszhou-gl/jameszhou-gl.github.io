@@ -7,8 +7,8 @@ categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Zhongyi Han, Shiming Chen, Biwei Huang, Liming Zhu, Tongliang Liu, Lina Yao, Kun Zhang"
 venue: "IEEE Transactions on Multimedia"
-arxiv: https://arxiv.org/pdf/2401.09716
-code: https://github.com/jameszhou-gl/TMM-HCVP
-website: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10814670
+arXiv: https://arxiv.org/pdf/2401.09716
+Code: https://github.com/jameszhou-gl/TMM-HCVP
+PDF: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10814670
 ---
 <!-- We propose. -->

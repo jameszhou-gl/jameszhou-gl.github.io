@@ -7,7 +7,7 @@ categories: research
 author: "Guanglin Zhou"
 authors: "Xiaocong Chen, Lina Yao, Julian McAuley, <strong>Guanglin Zhou</strong>, Xianzhi Wang"
 venue: "Knowledge-Based Systems"
-website: https://www.sciencedirect.com/science/article/pii/S0950705123000850
+PDF: https://www.sciencedirect.com/science/article/pii/S0950705123000850
 # code: https://github.com/jameszhou-gl/CBRE
 ---
 <!-- We propose. -->
