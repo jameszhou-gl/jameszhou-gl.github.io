@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "From Small to Large: In-Context Learning as a New Paradigm for Domain Generalization"
-date:   2025-11-09 18:18:18 +00:00
+date:   2025-11-06 18:18:18 +00:00
 image: /images/icl-dg.jpg
 categories: research
 author: "Guanglin Zhou"
