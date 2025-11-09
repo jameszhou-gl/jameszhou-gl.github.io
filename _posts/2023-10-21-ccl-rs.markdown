@@ -6,7 +6,8 @@ image: /images/ccl-rs.jpg
 categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Chengkai Huang, Xiaocong Chen, Xiwei Xu, Chen Wang, Liming Zhu, Lina Yao"
-venue: "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management"
+venue: "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM)"
+venue_note: "CCF Rank-B"
 PDF: https://dl.acm.org/doi/pdf/10.1145/3583780.3614823
 ---
 <!-- We propose. -->

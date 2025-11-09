@@ -6,7 +6,8 @@ image: /images/hisgt.jpg
 categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou<sup>#</sup></strong>, Sebastiano Barbieri"
-venue: "Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)"
+venue: "Proceedings of the 28th European Conference on Artificial Intelligence (ECAI)"
+venue_note: "CCF Rank-B"
 PDF: https://ebooks.iospress.nl/doi/10.3233/FAIA251280
 arXiv: https://arxiv.org/pdf/2502.20719
 Code: https://github.com/jameszhou-gl/HiSGT
