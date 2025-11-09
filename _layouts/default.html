@@ -104,7 +104,7 @@
             <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
               <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">{{post.title}}</h3>
               <p style="font-size: 16px; font-style: italic; margin: 2px 0;">{{post.authors}}</p>
-              <p style="font-size: 16px; font-style: italic; margin: 2px 0;">{{post.venue}}, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong> <span style="color: red;">({{post.venue_note}})</span></strong>{% endif %}</p>
+              <p style="font-size: 16px; margin: 2px 0;">{{post.venue}}, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong> <span style="color: red;">({{post.venue_note}})</span></strong>{% endif %}</p>
               {% if post.arXiv %}
               <a style="font-size: 16px; font-style: italic;" href="{{post.arXiv}}"><strong>[arXiv]</strong></a>
               {% endif %}
