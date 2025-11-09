@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Generating clinically realistic ehr data via a hierarchy-and semantics-guided transformer"
+date:   2025-07-25 22:21:59 +00:00
+image: /images/hisgt.pdf
+categories: research
+author: "Guanglin Zhou"
+authors: "<strong>Guanglin Zhou</strong>, Sebastiano Barbieri"
+venue: "Proceedings of the 28th European Conference on Artificial Intelligence (ECAI 2025)"
+arxiv: https://arxiv.org/pdf/2502.20719
+code: https://github.com/jameszhou-gl/HiSGT
+---
+We propose.
