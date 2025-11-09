@@ -22,7 +22,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <style>
+  <!-- <style>
     body {
       font-size: 18px;
       line-height: 1.6;
@@ -45,7 +45,7 @@
     em {
       font-size: 18px;
     }
-  </style>
+  </style> -->
 
 </head>
 
@@ -56,17 +56,17 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
+              <h1 style="font-size: 36px;"> 
                 Guanglin Zhou
               </h1>
-              <p>I am a Postdoctoral Research Fellow at the <a href="https://eecs.uq.edu.au/">School of Electrical Engineering and Computer Science</a> and <a href="https://chsr.centre.uq.edu.au/research/queensland-digital-health-centre" >Queensland Digital Health Centre</a> at <a href="https://www.uq.edu.au/">The University of Queensland</a>, working with <a href="https://about.uq.edu.au/experts/43828">Sebastiano Barbieri</a>.
+              <p style="font-size: 16px;">I am a Postdoctoral Research Fellow at the <a href="https://eecs.uq.edu.au/">School of Electrical Engineering and Computer Science</a> and <a href="https://chsr.centre.uq.edu.au/research/queensland-digital-health-centre" >Queensland Digital Health Centre</a> at <a href="https://www.uq.edu.au/">The University of Queensland</a>, working with <a href="https://about.uq.edu.au/experts/43828">Sebastiano Barbieri</a>.
                 From 2021 to 2024, I was a PhD student at <a href="https://www.unsw.edu.au/">UNSW Sydney</a>, under the supervision of <a href="https://www.linayao.com">Lina Yao</a> and <a href="https://people.csiro.au/Z/L/Liming-Zhu">Liming Zhu</a>.
                 Since May 2023, I was a research intern at <a href="https://mbzuai.ac.ae/research/research-centers/ciai/">Center for Artificial Intelligence Research</a>, <a href="https://mbzuai.ac.ae">MBZUAI</a>, Abu Dhabi, UAE, working closely with <a href="https://mbzuai.ac.ae/study/faculty/kun-zhang/">Kun Zhang</a> and <a href="https://mbzuai.ac.ae/people/researchers/researcher/salman-khan">Salman Khan</a>.
               </p>
               <p>
                 <!-- I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab. -->
               </p>
-              <p style="text-align:center">
+              <p style="text-align:center; font-size: 16px;">
                 <a href="mailto:jameszhou.ustc@gmail.com"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/jameszhou-gl">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=XLA-isUAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
@@ -83,10 +83,10 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
-              <p>
+              <p style="font-size: 16px;">
                 I'm interested in generative models and causality, and their applications in healthcare.
               </p>
-              <p style="font-size:small;color:#666;margin-top:-10px;">
+              <p style="font-size: 16px; color:#666;margin-top:-10px;">
                 *:Co-First Author; #:Corresponding Author.
               </p>
             </td>
@@ -101,34 +101,34 @@
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:10px 20px 10px 20px;width:75%;vertical-align:middle">
-              <h3 style="font-size: 18px;">{{post.title}}</h3>
-              <p style="font-size: 16px;">{{post.authors}}</p>
-              <p style="font-size: 16px;">{{post.venue}}</p>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong> </i>{% endif %}
+              <h3 style="font-size: 18px; font-style: italic;">{{post.title}}</h3>
+              <p style="font-size: 16px; font-style: italic;">{{post.authors}}</p>
+              <p style="font-size: 16px; font-style: italic;">{{post.venue}}</p>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong> </i>{% endif %}
               {% if post.arXiv %}
-              <a style="font-size: 16px;" href="{{post.arXiv}}"><strong>[arXiv]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.arXiv}}"><strong>[arXiv]</strong></a>
               {% endif %}
               {% if post.PDF %}
-              <a style="font-size: 16px;" href="{{post.PDF}}"><strong>[PDF]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.PDF}}"><strong>[PDF]</strong></a>
               {% endif %}
               {% if post.video %}
-              <a style="font-size: 16px;" href="{{post.video}}"><strong>[Video]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.video}}"><strong>[Video]</strong></a>
               {% endif %}
               {% if post.Code %}
-              <a style="font-size: 16px;" href="{{post.Code}}"><strong>[Code]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.Code}}"><strong>[Code]</strong></a>
               {% endif %}
               {% if post.poster %}
-              <a style="font-size: 16px;" href="{{post.poster}}"><strong>[Poster]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.poster}}"><strong>[Poster]</strong></a>
               {% endif %}
               {% if post.slides %}
-              <a style="font-size: 16px;" href="{{post.slides}}"><strong>[Slides]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.slides}}"><strong>[Slides]</strong></a>
               {% endif %}
               {% if post.website %}
-              <a style="font-size: 16px;" href="{{post.website}}"><strong>[Website]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.website}}"><strong>[Website]</strong></a>
               {% endif %}
               {% if post.youtube %}
-              <a style="font-size: 16px;" href="{{post.youtube}}"><strong>[YouTube]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="{{post.youtube}}"><strong>[YouTube]</strong></a>
               {% endif %}
-              <p style="font-size: 16px;">{{ post.excerpt }}</p>
+              <p style="font-size: 16px; font-style: italic;">{{ post.excerpt }}</p>
             </td>
           </tr>
           {% endif %}
