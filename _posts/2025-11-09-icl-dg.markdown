@@ -7,7 +7,7 @@ categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Sebastiano Barbieri"
 venue: "International Journal of Computer Vision"
-# arxiv: https://arxiv.org/pdf/2502.20719
+arxiv: https://arxiv.org
 # code: https://github.com/jameszhou-gl/HiSGT
 ---
 We propose.
