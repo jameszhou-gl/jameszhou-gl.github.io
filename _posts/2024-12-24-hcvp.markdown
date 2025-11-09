@@ -2,7 +2,7 @@
 layout: post
 title:  "HCVP: Leveraging Hierarchical Contrastive Visual Prompt for Domain Generalization"
 date:   2024-12-24 18:18:18 +00:00
-image: /images/hcvp.jpg
+image: /images/hcvp.png
 categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Zhongyi Han, Shiming Chen, Biwei Huang, Liming Zhu, Tongliang Liu, Lina Yao, Kun Zhang"
