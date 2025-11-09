@@ -2,7 +2,7 @@
 layout: post
 title:  "How Well Does GPT-4V (ision) Adapt to Distribution Shifts? A Preliminary Investigation"
 date:   2024-03-04 18:18:18 +00:00
-image: /images/gpt4v-distribution-shift.jpg
+image: /images/gpt-4v-distribution-shift.jpg
 categories: research
 author: "Guanglin Zhou"
 authors: "Zhongyi Han<sup>*</sup>, <strong>Guanglin Zhou</strong><sup>*</sup>, Rundong He<sup>*</sup>, Jindong Wang, Tailin Wu, Yilong Yin, Salman Khan, Lina Yao, Tongliang Liu, Kun Zhang"
