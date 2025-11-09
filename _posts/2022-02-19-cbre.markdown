@@ -6,7 +6,7 @@ image: /images/cbre.jpg
 categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Lina Yao, Xiwei Xu, Chen Wang, Liming Zhu"
-venue: "Proceedings of the 2022 SIAM International Conference on Data Mining (SDM)"
+venue: "SDM"
 venue_note: "Oral Presentation"
 PDF: https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.50
 Code: https://github.com/jameszhou-gl/CBRE

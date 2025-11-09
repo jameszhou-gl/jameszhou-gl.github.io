@@ -6,7 +6,7 @@ image: /images/gpt-4v-distribution-shift.jpg
 categories: research
 author: "Guanglin Zhou"
 authors: "Zhongyi Han<sup>*</sup>, <strong>Guanglin Zhou</strong><sup>*</sup>, Rundong He<sup>*</sup>, Jindong Wang, Tailin Wu, Yilong Yin, Salman Khan, Lina Yao, Tongliang Liu, Kun Zhang"
-venue: "ICLR 2024 Workshop on Mathematical and Empirical Understanding of Foundation Models"
+venue: "ICLR 2024 ME-FoMo Workshop"
 PDF: https://openreview.net/pdf?id=J8V4EwZkez
 Code: https://github.com/jameszhou-gl/gpt-4v-distribution-shift
 ---
