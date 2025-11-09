@@ -74,12 +74,12 @@
           {% if cat == 'research' %}
           <tr>
             {% if post.image %}
-            <td style="padding:2.5%;width:15%;vertical-align:middle;min-width:80px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            <td style="padding:2.5%;vertical-align:middle">
+              <img src="/tn{{post.image}}" alt="project image" style="width:160px; max-width:160px;" />
             </td>
-            <td style="padding:2.5%;width:85%;vertical-align:middle">
+            <td style="padding:2.5%;vertical-align:middle">
             {% else %}
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
+            <td style="padding:2.5%;vertical-align:middle">
             {% endif %}
               <h3>{{post.title}}</h3>
               <br>
