@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "From Small to Large: In-Context Learning as a New Paradigm for Domain Generalization"
+date:   2025-11-06 18:18:18 +00:00
+image: /images/icl-dg.jpg
+categories: research
+author: "Guanglin Zhou"
+authors: "<strong>Guanglin Zhou</strong>, Sebastiano Barbieri"
+venue: "International Journal of Computer Vision"
+arxiv: https://arxiv.org
+# code: https://github.com/jameszhou-gl/HiSGT
+---
+We propose.
