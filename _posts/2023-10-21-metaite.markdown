@@ -7,7 +7,7 @@ categories: research
 author: "Guanglin Zhou"
 authors: "<strong>Guanglin Zhou</strong>, Lina Yao, Xiwei Xu, Chen Wang, Liming Zhu"
 venue: "International Conference on Web Information Systems Engineering (WISE)"
-venue_note: "CCF Rank-C"
+# venue_note: "CCF Rank-C"
 PDF: https://link.springer.com/chapter/10.1007/978-981-99-7254-8_69
 ---
 <!-- We propose. -->
