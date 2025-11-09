@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cycle-balanced representation learning for counterfactual inference"
-date:   2021-12-19 18:18:18 +00:00
+date:   2022-02-19 18:18:18 +00:00
 image: /images/cbre.jpg
 categories: research
 author: "Guanglin Zhou"
