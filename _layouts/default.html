@@ -101,38 +101,37 @@
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:10px 20px 10px 20px;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <h3 style="font-size: 18px;">{{post.title}}</h3>
               <br>
-              {{post.authors}}
+              <p style="font-size: 16px;">{{post.authors}}</p>
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong> </i>{% endif %}
+              <p style="font-size: 16px;">{{post.venue}}</p>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong> </i>{% endif %}
               <br>
               {% if post.arXiv %}
-              <a href="{{post.arXiv}}">arXiv</a> /
+              <a style="font-size: 16px;" href="{{post.arXiv}}">arXiv</a> /
               {% endif %}
               {% if post.PDF %}
-              <a href="{{post.PDF}}">PDF</a> /
+              <a style="font-size: 16px;" href="{{post.PDF}}">PDF</a> /
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a style="font-size: 16px;" href="{{post.video}}">video</a> /
               {% endif %}
               {% if post.Code %}
-              <a href="{{post.Code}}">Code</a> /
+              <a style="font-size: 16px;" href="{{post.Code}}">Code</a> /
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a style="font-size: 16px;" href="{{post.poster}}">poster</a> /
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a style="font-size: 16px;" href="{{post.slides}}">slides</a> /
               {% endif %}
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a style="font-size: 16px;" href="{{post.website}}">website</a> /
               {% endif %}
               {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
+              <a style="font-size: 16px;" href="{{post.youtube}}">youtube</a> /
               {% endif %}
-              <p></p>
-              {{ post.excerpt }}
+              <p style="font-size: 16px;">{{ post.excerpt }}</p>
             </td>
           </tr>
           {% endif %}
