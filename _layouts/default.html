@@ -105,7 +105,7 @@
               <br>
               {{post.authors}}
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<span style="color: burlywood;">({{post.venue_note}})</span>{% endif %}
+              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong>{% endif %}
               <br>
               {% if post.arXiv %}
               <a href="{{post.arXiv}}">arXiv</a> /
