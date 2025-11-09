@@ -108,28 +108,28 @@
               <p style="font-size: 16px;">{{post.venue}}</p>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong> </i>{% endif %}
               <br>
               {% if post.arXiv %}
-              <a style="font-size: 16px;" href="{{post.arXiv}}">arXiv</a> /
+              <a style="font-size: 16px;" href="{{post.arXiv}}"><strong>[arXiv]</strong></a>
               {% endif %}
               {% if post.PDF %}
-              <a style="font-size: 16px;" href="{{post.PDF}}">PDF</a> /
+              <a style="font-size: 16px;" href="{{post.PDF}}"><strong>[PDF]</strong></a>
               {% endif %}
               {% if post.video %}
-              <a style="font-size: 16px;" href="{{post.video}}">video</a> /
+              <a style="font-size: 16px;" href="{{post.video}}"><strong>[Video]</strong></a>
               {% endif %}
               {% if post.Code %}
-              <a style="font-size: 16px;" href="{{post.Code}}">Code</a> /
+              <a style="font-size: 16px;" href="{{post.Code}}"><strong>[Code]</strong></a>
               {% endif %}
               {% if post.poster %}
-              <a style="font-size: 16px;" href="{{post.poster}}">poster</a> /
+              <a style="font-size: 16px;" href="{{post.poster}}"><strong>[Poster]</strong></a>
               {% endif %}
               {% if post.slides %}
-              <a style="font-size: 16px;" href="{{post.slides}}">slides</a> /
+              <a style="font-size: 16px;" href="{{post.slides}}"><strong>[Slides]</strong></a>
               {% endif %}
               {% if post.website %}
-              <a style="font-size: 16px;" href="{{post.website}}">website</a> /
+              <a style="font-size: 16px;" href="{{post.website}}"><strong>[Website]</strong></a>
               {% endif %}
               {% if post.youtube %}
-              <a style="font-size: 16px;" href="{{post.youtube}}">youtube</a> /
+              <a style="font-size: 16px;" href="{{post.youtube}}"><strong>[YouTube]</strong></a>
               {% endif %}
               <p style="font-size: 16px;">{{ post.excerpt }}</p>
             </td>
