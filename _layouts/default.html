@@ -102,11 +102,8 @@
             </td>
             <td style="padding:10px 20px 10px 20px;width:75%;vertical-align:middle">
               <h3 style="font-size: 18px;">{{post.title}}</h3>
-              <br>
               <p style="font-size: 16px;">{{post.authors}}</p>
-              <br>
               <p style="font-size: 16px;">{{post.venue}}</p>, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong>(<span style="color: burlywood;">{{post.venue_note}}</span>)</strong> </i>{% endif %}
-              <br>
               {% if post.arXiv %}
               <a style="font-size: 16px;" href="{{post.arXiv}}"><strong>[arXiv]</strong></a>
               {% endif %}
