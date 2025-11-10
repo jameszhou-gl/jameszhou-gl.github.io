@@ -161,6 +161,7 @@ span.highlight {
 .paper .meta h3 a {
   text-decoration: none;
   color: #1a2a5a;
+  font-size: inherit;
 }
 
 .paper .meta h3 a:hover {
@@ -187,7 +188,7 @@ span.highlight {
 }
 
 .paper .oral {
-  color: #c81e1e;
+  color: red;
   font-weight: 700;
 }
 
