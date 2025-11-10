@@ -102,3 +102,103 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+
+/* Publications list */
+.paper {
+  display: flex;
+  gap: 18px;
+  padding: 18px 20px;
+  margin: 22px 0;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+}
+
+.paper .thumb {
+  position: relative;
+  width: 32%;
+  min-width: 220px;
+  max-width: 360px;
+  flex-shrink: 0;
+}
+
+.paper .thumb img {
+  width: 100%;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .10);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+/* subtle lift on hover */
+.paper:hover .thumb img {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .12);
+}
+
+/* conference badge */
+.paper .badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #1b66d1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: .2px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* right column */
+.paper .meta h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.paper .meta h3 a {
+  text-decoration: none;
+  color: #1a2a5a;
+}
+
+.paper .meta h3 a:hover {
+  text-decoration: underline;
+}
+
+.paper .authors,
+.paper .venue {
+  margin: 2px 0;
+  font-size: 16px;
+}
+
+.paper .links a {
+  margin-right: 12px;
+  font-size: 16px;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 1px dotted #777;
+  color: #1a56a3;
+}
+
+.paper .links a:hover {
+  border-bottom-color: transparent;
+}
+
+.paper .oral {
+  color: #c81e1e;
+  font-weight: 700;
+}
+
+/* mobile stacking */
+@media (max-width: 720px) {
+  .paper {
+    flex-direction: column;
+  }
+
+  .paper .thumb {
+    width: 100%;
+    max-width: none;
+  }
+}
