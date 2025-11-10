@@ -94,47 +94,117 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
+          
+          <!-- Publication 1 -->
           <tr>
             <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="/tn/images/icl-dg.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
-              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">{{post.title}}</h3>
-              <p style="font-size: 16px; font-style: italic; margin: 2px 0;">{{post.authors}}</p>
-              <p style="font-size: 16px; margin: 2px 0;">{{post.venue}}, {{ post.date | date: "%Y" }} {% if post.venue_note %}<strong> <span style="color: red;">({{post.venue_note}})</span></strong>{% endif %}</p>
-              {% if post.arXiv %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.arXiv}}"><strong>[arXiv]</strong></a>
-              {% endif %}
-              {% if post.PDF %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.PDF}}"><strong>[PDF]</strong></a>
-              {% endif %}
-              {% if post.video %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.video}}"><strong>[Video]</strong></a>
-              {% endif %}
-              {% if post.Code %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.Code}}"><strong>[Code]</strong></a>
-              {% endif %}
-              {% if post.poster %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.poster}}"><strong>[Poster]</strong></a>
-              {% endif %}
-              {% if post.slides %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.slides}}"><strong>[Slides]</strong></a>
-              {% endif %}
-              {% if post.website %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.website}}"><strong>[Website]</strong></a>
-              {% endif %}
-              {% if post.youtube %}
-              <a style="font-size: 16px; font-style: italic;" href="{{post.youtube}}"><strong>[YouTube]</strong></a>
-              {% endif %}
-              <p style="font-size: 16px; font-style: italic;">{{ post.excerpt }}</p>
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">From Small to Large: In-Context Learning as a New Paradigm for Domain Generalization</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou<sup>*</sup><sup>#</sup></strong>, Zhongyi Han<sup>*</sup>, Shaoan Xie<sup>*</sup>, Shiming Chen, Biwei Huang, Liming Zhu, Xin Gao, Lina Yao, Salman Khan</p>
+              <p style="font-size: 16px; margin: 2px 0;">IJCV, 2025</p>
+              <a style="font-size: 16px; font-style: italic;" href="https://arxiv.org"><strong>[arXiv]</strong></a>
             </td>
           </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
+
+          <!-- Publication 2 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/hisgt.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">Generating clinically realistic ehr data via a hierarchy-and semantics-guided transformer</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou<sup>#</sup></strong>, Sebastiano Barbieri</p>
+              <p style="font-size: 16px; margin: 2px 0;">ECAI, 2025 <strong> <span style="color: red;">(Oral Presentation)</span></strong></p>
+              <a style="font-size: 16px; font-style: italic;" href="https://arxiv.org/pdf/2502.20719"><strong>[arXiv]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="https://ebooks.iospress.nl/doi/10.3233/FAIA251280"><strong>[PDF]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="https://github.com/jameszhou-gl/HiSGT"><strong>[Code]</strong></a>
+            </td>
+          </tr>
+
+          <!-- Publication 3 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/hcvp.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">HCVP: Leveraging Hierarchical Contrastive Visual Prompt for Domain Generalization</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou</strong>, Zhongyi Han, Shiming Chen, Biwei Huang, Liming Zhu, Tongliang Liu, Lina Yao, Kun Zhang</p>
+              <p style="font-size: 16px; margin: 2px 0;">TMM, 2024</p>
+              <a style="font-size: 16px; font-style: italic;" href="https://arxiv.org/pdf/2401.09716"><strong>[arXiv]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10814670"><strong>[PDF]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="https://github.com/jameszhou-gl/TMM-HCVP"><strong>[Code]</strong></a>
+            </td>
+          </tr>
+
+          <!-- Publication 4 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/gpt-4v-distribution-shift.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">How Well Does GPT-4V (ision) Adapt to Distribution Shifts? A Preliminary Investigation</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;">Zhongyi Han<sup>*</sup>, <strong>Guanglin Zhou</strong><sup>*</sup>, Rundong He<sup>*</sup>, Jindong Wang, Tailin Wu, Yilong Yin, Salman Khan, Lina Yao, Tongliang Liu, Kun Zhang</p>
+              <p style="font-size: 16px; margin: 2px 0;">ICLR 2024 ME-FoMo Workshop, 2024</p>
+              <a style="font-size: 16px; font-style: italic;" href="https://openreview.net/pdf?id=J8V4EwZkez"><strong>[PDF]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="https://github.com/jameszhou-gl/gpt-4v-distribution-shift"><strong>[Code]</strong></a>
+            </td>
+          </tr>
+
+          <!-- Publication 5 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/metaite.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">Meta-learning for Estimating Multiple Treatment Effects with Imbalance</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou</strong>, Lina Yao, Xiwei Xu, Chen Wang, Liming Zhu</p>
+              <p style="font-size: 16px; margin: 2px 0;">WISE, 2023</p>
+              <a style="font-size: 16px; font-style: italic;" href="https://link.springer.com/chapter/10.1007/978-981-99-7254-8_69"><strong>[PDF]</strong></a>
+            </td>
+          </tr>
+
+          <!-- Publication 6 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/ccl-rs.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">Contrastive counterfactual learning for causality-aware interpretable recommender systems</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou</strong>, Chengkai Huang, Xiaocong Chen, Xiwei Xu, Chen Wang, Liming Zhu, Lina Yao</p>
+              <p style="font-size: 16px; margin: 2px 0;">CIKM, 2023 <strong> <span style="color: red;">(Oral Presentation)</span></strong></p>
+              <a style="font-size: 16px; font-style: italic;" href="https://dl.acm.org/doi/pdf/10.1145/3583780.3614823"><strong>[PDF]</strong></a>
+            </td>
+          </tr>
+
+          <!-- Publication 7 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/survey-causality-dgms.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">Emerging synergies in causality and deep generative models: A survey</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou</strong>, Shaoan Xie, Guangyuan Hao, Shiming Chen, Biwei Huang, Xiwei Xu, Chen Wang, Liming Zhu, Lina Yao, Kun Zhang</p>
+              <p style="font-size: 16px; margin: 2px 0;">arXiv, 2023</p>
+              <a style="font-size: 16px; font-style: italic;" href="https://arxiv.org/pdf/2301.12351"><strong>[arXiv]</strong></a>
+            </td>
+          </tr>
+
+          <!-- Publication 8 -->
+          <tr>
+            <td style="padding:10px 20px 10px 20px;width:32%;vertical-align:middle;min-width:120px">
+              <img src="/tn/images/cbre.jpg" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            </td>
+            <td style="padding:10px 20px 10px 20px;width:68%;vertical-align:middle">
+              <h3 style="font-size: 18px; font-style: italic; margin-bottom: 5px;">Cycle-balanced representation learning for counterfactual inference</h3>
+              <p style="font-size: 16px; font-style: italic; margin: 2px 0;"><strong>Guanglin Zhou</strong>, Lina Yao, Xiwei Xu, Chen Wang, Liming Zhu</p>
+              <p style="font-size: 16px; margin: 2px 0;">SDM, 2022 <strong> <span style="color: red;">(Oral Presentation)</span></strong></p>
+              <a style="font-size: 16px; font-style: italic;" href="https://epubs.siam.org/doi/pdf/10.1137/1.9781611977172.50"><strong>[PDF]</strong></a>
+              <a style="font-size: 16px; font-style: italic;" href="https://github.com/jameszhou-gl/CBRE"><strong>[Code]</strong></a>
+            </td>
+          </tr>
+
         </table>
         <br>
         <br>
